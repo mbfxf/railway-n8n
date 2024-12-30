@@ -1,4 +1,5 @@
 FROM n8nio/n8n:latest
+RUN npm install html-to-docx
 
 ARG PGPASSWORD
 ARG PGHOST
